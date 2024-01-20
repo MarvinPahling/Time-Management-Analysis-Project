@@ -47,7 +47,19 @@ Navigate to Zeiteinteilung.ipynb in the Jupyter Notebook interface to open and r
 
 ## Usage
 
-After launching Jupyter Notebook, you can view and run the cells in Zeiteinteilung.ipynb. The notebook is interactive, allowing for modification and execution of the Python code.
+After launching Jupyter Notebook, you can view and run the cells in Zeiteinteilung.ipynb. The notebook is interactive, allowing for modification and execution of the Python code. The used data can be modified in (`Zeiterfassung.xlsx`).
+
+## Uninstall envirement
+Activate the base envirement
+```bash
+conda activate base
+```
+
+Deletet the virtual envirement
+```bash
+conda env remove -n time_analysis
+```
+
 
 ## Contributing
 
