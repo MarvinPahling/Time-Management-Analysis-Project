@@ -21,7 +21,7 @@ If you do not have Conda installed, download and install it from [Miniconda](htt
 Clone this repository to your local machine using:
 
 ```bash
-git clone [URL to this repository]
+git clone https://github.com/MarvinPahling/RWAChartMaker
 ```
 ### Step 3: Create a Conda Environment
 Navigate to the cloned repository folder and create a Conda environment with all the necessary dependencies:
