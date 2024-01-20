@@ -22,12 +22,35 @@ Clone this repository to your local machine using:
 
 ```bash
 git clone [URL to this repository]
-
+```
 ### Step 3: Create a Conda Environment
 Navigate to the cloned repository folder and create a Conda environment with all the necessary dependencies:
 
 ```bash
 conda create -n time_analysis python=3.8 pandas seaborn matplotlib openpyxl jupyter
+```
 
+### Step 4: Activate the Environment
+Activate the Conda environment:
+
+```bash
+conda activate time_analysis
+```
+
+### Step 5: Launch Jupyter Notebook
+With the environment activated, start the Jupyter Notebook server:
+
+```bash
+jupyter notebook
+```
+Navigate to Zeiteinteilung.ipynb in the Jupyter Notebook interface to open and run the notebook.
+
+## Usage
+
+After launching Jupyter Notebook, you can view and run the cells in Zeiteinteilung.ipynb. The notebook is interactive, allowing for modification and execution of the Python code.
+
+## Contributing
+
+Contributions to this project are welcome. Please feel free to open an issue or submit a pull request if you wish to contribute.
 
 
