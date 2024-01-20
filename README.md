@@ -23,3 +23,11 @@ Clone this repository to your local machine using:
 ```bash
 git clone [URL to this repository]
 
+### Step 3: Create a Conda Environment
+Navigate to the cloned repository folder and create a Conda environment with all the necessary dependencies:
+
+```bash
+conda create -n time_analysis python=3.8 pandas seaborn matplotlib openpyxl jupyter
+
+
+
