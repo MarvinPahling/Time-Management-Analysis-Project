@@ -21,7 +21,7 @@ If you do not have Conda installed, download and install it from [Miniconda](htt
 Clone this repository to your local machine using:
 
 ```bash
-git clone [URL to this repository]
+git clone https://github.com/MarvinPahling/Time-Management-Analysis-Project
 ```
 ### Step 3: Create a Conda Environment
 Navigate to the cloned repository folder and create a Conda environment with all the necessary dependencies:
@@ -47,7 +47,23 @@ Navigate to Zeiteinteilung.ipynb in the Jupyter Notebook interface to open and r
 
 ## Usage
 
-After launching Jupyter Notebook, you can view and run the cells in Zeiteinteilung.ipynb. The notebook is interactive, allowing for modification and execution of the Python code.
+After launching Jupyter Notebook, you can view and run the cells in Zeiteinteilung.ipynb. The notebook is interactive, allowing for modification and execution of the Python code. The used data can be modified in (`Zeiterfassung.xlsx`).
+
+## Uninstall environment
+Activate the base Environment.
+```bash
+conda activate base
+```
+
+Deletet the virtual environment.
+```bash
+conda env remove -n time_analysis
+```
+You can check if the envirement is removed by listing all environments.
+```bash
+conda env list
+```
+
 
 ## Contributing
 
